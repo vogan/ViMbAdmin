@@ -66,6 +66,7 @@ class ViMbAdmin_Dovecot
      * @param string $pwhash The hashed password
      * @param string $pwplain The plaintext password
      * @param string $user The username (required by some schemes)
+     * @param string $pwhash The password hash
      * @throws ViMbAdmin_Exception
      * @return bool True if password matches
      */
@@ -106,3 +107,5 @@ class ViMbAdmin_Dovecot
     }
 
 }
+
+
